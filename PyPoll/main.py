@@ -45,7 +45,7 @@ with open(csvpath) as csvfile:
     #returns the key for the value with the highest count
     winner = max(votes, key=votes.get)
     
-output_file = os.path.join('Analysis','Election_results.txt')
+output_file = os.path.join('Election_results.txt')
 
 with open(output_file, "w") as datafile:
     datafile.write('Election Results\n----------------------------------')

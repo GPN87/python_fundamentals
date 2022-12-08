@@ -47,7 +47,7 @@ with open(csvpath) as csvfile:
     average_change = change_sum/change_length
 
 #writes to separate .txt file called 'Financial_analysis.txt'
-output_file = os.path.join('Analysis','Financial_analysis.txt')
+output_file = os.path.join('Financial_analysis.txt')
 
 with open(output_file, "w") as datafile:
     datafile.write('Financial Analysis:\n---------------------------------------------------------')    
