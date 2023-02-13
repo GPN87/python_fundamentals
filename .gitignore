@@ -1,0 +1,2 @@
+#gitignore all DS_Stores files
+**/DS_Stores

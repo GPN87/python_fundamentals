@@ -1,6 +1,9 @@
-# python-challenge
-This repository contains a PyBank and a PyPoll folder.
-Each folder separately contains a 'main.py' file which:
-a) reads in a .csv file from the 'Resources' sub-directory; and
-b) writes a .txt file into the current directory
+# python-noodling
+## Overview
+This activity was my first exposure to Python! Completed as a module assignment for the Monash Uni Data Analytics and Visualisation Bootcamp, it contains two separate activities (PyPoll and PyBank) that involve:
+- reading in .csvs;
+- using loops to append to empty lists;
+- creating running totals and counts;
+- using basic list comprehensions;
+- writing to .txt.
 
